@@ -58,7 +58,7 @@ a:hover{
 .content__item-name{
 	width: 30%;
 }
-.about, .studio, .projects, .news, .contact{
+.about, .studio, .moaa, .news, .contact{
 	display: flex;
 	justify-content: space-between;
 }
@@ -81,25 +81,25 @@ a:hover{
 	display: flex;
 	justify-content: space-between;
 }
-.projects__items{
+.moaa__items{
 	display: flex;
 	width: 70%;
 }
-.projects__items-elem{
+.moaa__items-elem{
 	margin-right: 25px;
 }
-.projects__items-elem-name{
+.moaa__items-elem-name{
 	display: block;
 	margin: 25px 0;
 	text-transform: uppercase;
 }
-.projects-img{
+.moaa-img{
 	display: flex;
 	flex-direction: column;
 	justify-content: end;
 	height: 300px;
 }
-.projects-img img, .studio-img img{
+.moaa-img img, .studio-img img{
 	width: 100%;
 }
 .news-content{
@@ -199,21 +199,21 @@ a:hover{
 	.about-img img{
 		width: 100%;
 	}
-	.projects{
+	.moaa{
 		flex-direction: column;
 	}
-	.projects__items{
+	.moaa__items{
 		width: 100%;
 	}
-	.projects__items-elem{
+	.moaa__items-elem{
 		display: flex;
 		flex-direction: column;
 		justify-content: space-between;
 	}
-	.projects-img {
+	.moaa-img {
 		height: 210px;
 	}
-	.projects__items-elem{
+	.moaa__items-elem{
 		font-size: 14px;
 	}
 	.studio-img{
@@ -289,7 +289,7 @@ a:hover{
 	.content__item{
 		margin-bottom: 100px;
 	}
-	.projects-img {
+	.moaa-img {
 		height: 120px;
 	}
 	.studio__desc{
